@@ -1,0 +1,6 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB   #파일용량 설정
+  mvc:
+    static-path-pattern: /static/**
